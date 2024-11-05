@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;700&display=swap');
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+section
+{
+font-family: 'Prompt';
+height: 70vh;
+font-size: 30px;
+display: flex;
+justify-content: center; align-items: center;
+color: #b9067e;
+}
+button {
+ margin-top:-15cm;
+ margin-right: 24%;
+  border: 0;
+  background-image: linear-gradient(
+  150deg,
+  #d24a83
+  #810370
+  #c90588
+
+);
+border-radius: 8px;
+color: #b1256b;
+display: flex;
+font-size: 18px;
+padding: 1px;
+cursor: pointer;
+transition: .3s;
+}
+button span {
+  background-color: rgb(231, 132, 170);
+  padding: 10px 10px;
+  border-radius: 3px;
+  transition: .3s;
+  }
+  button:hover span{
+  background: none;
+  }
+  
+  button:active {
+  transform: scale(0.9);
+  }
+#inicio{
+background-color: #0c2139;
+color: #b9067e;
+height: 100vh;
+}
+section h1{
+font-size: 70px;
+}
+section h6{
+  align-content: center;
+}
+section img{
+width: 550px;
+margin: 0 50px;
+border-radius: 30%;
+}
+
+section .info{
+.info {
+    width: 90%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    overflow-wrap: break-word; 
+    overflow: hidden; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+}
+.futbol{
+  position: relative; 
+  left: -50px;
+  opacity: 0;
+  align-content: center;
+}
+.efecto-futbol{
+left: 0px;
+opacity: 1;
+transition: 1s linear;
+}
+.tennis{
+transform: scale(0.5);
+opacity: 0;
+align-content: center;
+}
+.efecto-tennis{
+transform: scale(1); 
+opacity: 1;
+
+}
+.judo{
+  transform: scale(0.5);
+  opacity: 0;
+  align-content: center;
+  }
+  .efecto-judo{
+  transform: scale(1); 
+  opacity: 1;
+  align-content: center;
+
+  }
+  
